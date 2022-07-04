@@ -6,6 +6,7 @@ html, body{
     background-size: cover;
     display: block;
     position: fixed;
+    margin: 0;
 
     
  }
