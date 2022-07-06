@@ -29,6 +29,7 @@ html, body{
 
 .header_nav{
     width: 30%;
+    margin-left: 600px;
     
 
  }
@@ -39,7 +40,6 @@ html, body{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: none;
     padding: 0;
     color: rgb(0, 0, 0);
     
@@ -111,10 +111,13 @@ button{
     padding: 2em;
     border: 3px solid black;
     size: 50px;
-    scroll: margin 1px;;
 
-    
-    
+}
+
+.contact_us_information{
+    color: #c29352;
+    margin: 100px 0 0 200px;
+    font-size: 20px;
 }
 
 
