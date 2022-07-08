@@ -6,8 +6,6 @@ html, body{
     background-size: cover;
     position: fixed;
     margin: 0;
-
-    
  }
 
  .header{
@@ -50,9 +48,13 @@ html, body{
     height: 20px;
     size: 20px;
     display: flex; 
+
 }
 
-
+.instagram_logo{
+    display: flex;
+    
+}
 
 .description{
     width: 25%;
@@ -79,27 +81,13 @@ button{
     appearance: auto;
     writing-mode: horizontal-tb !important;
     font-size: 20px;
-    padding: 1em 1.5em;
+    padding: 1em 1em;
     text-rendering: auto;
     letter-spacing: normal;
     line-height: normal;
     margin: 140px 600px 0 630px;
     background: transparent;
-}
-
-.reservation_table{
-    display: table;
-    border: 3px solid black;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    /*border-spacing: 2px;*/
-    border-color: white;
-    color: #c29352;
-    padding: 2em;
-    margin-left: 100px;
-    margin-top: 100px;
-    font-size: 17px;
+    border-color: black;
 }
 
 .events_information{
